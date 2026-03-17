@@ -1,0 +1,56 @@
+# Build outputs
+**/bin/
+**/obj/
+**/[Dd]ebug*/
+**/[Rr]elease*/
+**/x64/
+**/x86/
+**/ARM/
+**/ARM64/
+artifacts/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.rsuser
+*.vssscc
+*.pidb
+*.svclog
+*.pdb
+
+# Rider / ReSharper
+.idea/
+**/_ReSharper*/
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# NuGet
+**/packages/
+*.nupkg
+*.snupkg
+NuGetScratch/
+
+# Test results
+TestResults/
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# SQLite databases
+# We keep the app's main DB tracked so it "just works" when cloned.
+*.db
+!MvcMovie/MvcMovie.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
